@@ -2,7 +2,7 @@ html{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    background-color: #0E0B16;
+    background-color: #0B0805;
 }
 
 *, *:before, *:after {
@@ -13,38 +13,43 @@ html{
 
 * {
     font-family: 'inconsolata', monospace;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 100;
-    color: #FFF;
+    color: #DDD;
 }
 
 h1 {
     font-size: 1.6em;
-    color: #E7DFDD;
+    color: #D0E1F9;
 }
 
 h2 {
     font-size: 1.2em;
+    color: #D0E1F9;
 }
 
 h3 {
     font-size: 1.0em;
+    color: #D0E1F9;
 }
 
 h4 {
     font-size: 0.8em;
+    color: #D0E1F9;
 }
 
 h5 {
     font-size: 0.6em;
+    color: #D0E1F9;
 }
 
 h6 {
     font-size: 0.4em;
+    color: #D0E1F9;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    border-bottom: 1px solid #FAFAFA;
+    border-bottom: 1px solid #DFDCE3;
     padding-bottom: 5px;
 }
 
@@ -112,7 +117,7 @@ img {
 
 html, body {
     margin: 0; padding: 0;
-    background-color: #0E0B16;
+    background-color: #0B0805;
 }
 
 .container {
@@ -128,7 +133,7 @@ html, body {
 }
 
 .header {
-    background-color: #0E0B16;
+    background-color: #0B0805;
     padding: 30px;
     color: #FFF;
     font-weight: bold;
@@ -152,7 +157,7 @@ html, body {
 
 .footer {
     text-align: center;
-    background-color: #0E0B16;
+    background-color: #0B0805;
     padding: 30px;
 }
 
