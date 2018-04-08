@@ -2,6 +2,7 @@ html{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    background-color: #0E0B16;
 }
 
 *, *:before, *:after {
@@ -11,13 +12,15 @@ html{
 }
 
 * {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'inconsolata', monospace;
     font-size: 20px;
     font-weight: 100;
+    color: #FFF;
 }
 
 h1 {
     font-size: 1.6em;
+    color: #E7DFDD;
 }
 
 h2 {
@@ -66,7 +69,7 @@ code {
 }
 
 pre {
-    background: #292824 !important;
+    background: #1D2731 !important;
     padding: 10px; border-radius: 3px;
     font-family: monospace;
     overflow-x: scroll;
@@ -109,6 +112,7 @@ img {
 
 html, body {
     margin: 0; padding: 0;
+    background-color: #0E0B16;
 }
 
 .container {
@@ -120,11 +124,11 @@ html, body {
 }
 
 .container a {
-    color: #2980b9;
+    color: #4F3FFF;
 }
 
 .header {
-    background-color: #3498db;
+    background-color: #0E0B16;
     padding: 30px;
     color: #FFF;
     font-weight: bold;
@@ -148,7 +152,7 @@ html, body {
 
 .footer {
     text-align: center;
-    background-color: #3498db;
+    background-color: #0E0B16;
     padding: 30px;
 }
 

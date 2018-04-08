@@ -12,16 +12,22 @@ Darkula color scheme from the JetBrains family of IDEs
   background: #2b2b2b;
   -webkit-text-size-adjust: none;
 }
+.hljs-title,
+.hljs-class .hljs-title,
+.hljs-class .hljs-title:last-child  {
+  color: #FFF;
+}
+
+
 
 .hljs,
 .hljs-tag,
-.hljs-title,
 .css .hljs-rule,
 .css .hljs-value,
 .aspectj .hljs-function,
 .css .hljs-function .hljs-preprocessor,
 .hljs-pragma {
-  color: #bababa;
+  color: #FFF;
 }
 
 .hljs-strongemphasis,
@@ -35,16 +41,14 @@ Darkula color scheme from the JetBrains family of IDEs
 .hljs-horizontal_rule,
 .hljs-number,
 .hljs-regexp,
-.alias .hljs-keyword,
 .hljs-literal,
 .hljs-hexcolor {
-  color: #6896ba;
+  color: #BD93F9;
 }
 
 .hljs-tag .hljs-value,
 .hljs-code,
-.css .hljs-class,
-.hljs-class .hljs-title:last-child {
+.css .hljs-class {
   color: #a6e22e;
 }
 
@@ -54,14 +58,11 @@ Darkula color scheme from the JetBrains family of IDEs
 
 .hljs-emphasis,
 .hljs-strongemphasis,
-.hljs-class .hljs-title:last-child,
 .hljs-typename {
   font-style: italic;
 }
 
-.hljs-keyword,
-.ruby .hljs-class .hljs-keyword:first-child,
-.ruby .hljs-function .hljs-keyword,
+
 .hljs-function,
 .hljs-change,
 .hljs-winutils,
@@ -74,16 +75,13 @@ Darkula color scheme from the JetBrains family of IDEs
 .hljs-symbol .hljs-string,
 .hljs-tag .hljs-title,
 .hljs-value,
-.alias .hljs-keyword:first-child,
+
 .css .hljs-tag,
 .css .unit,
 .css .hljs-important {
-  color: #cb7832;
+  color: #8BE9FD;
 }
 
-.hljs-function .hljs-keyword,
-.hljs-class .hljs-keyword:first-child,
-.hljs-aspect .hljs-keyword:first-child,
 .hljs-constant,
 .hljs-typename,
 .css .hljs-attribute {
@@ -92,9 +90,23 @@ Darkula color scheme from the JetBrains family of IDEs
 
 .hljs-variable,
 .hljs-params,
-.hljs-class .hljs-title,
 .hljs-aspect .hljs-title {
   color: #b9b9b9;
+}
+
+/*
+keywords are pink
+*/
+.hljs-keyword,
+.alias .hljs-keyword,
+.ruby .hljs-class .hljs-keyword:first-child,
+.ruby .hljs-function .hljs-keyword,
+.alias .hljs-keyword:first-child,
+.hljs-function .hljs-keyword,
+.hljs-class .hljs-keyword:first-child,
+.hljs-aspect .hljs-keyword:first-child,
+.hljs-built_in {
+  color: #FF79C6
 }
 
 .hljs-string,
@@ -102,7 +114,7 @@ Darkula color scheme from the JetBrains family of IDEs
 .hljs-subst,
 .hljs-type,
 .ruby .hljs-class .hljs-parent,
-.hljs-built_in,
+
 .django .hljs-template_tag,
 .django .hljs-variable,
 .smalltalk .hljs-class,
@@ -121,7 +133,7 @@ Darkula color scheme from the JetBrains family of IDEs
 .hljs-link_label,
 .hljs-link_url,
 .hljs-name {
-  color: #e0c46c;
+  color: #EEF78A;
 }
 
 .hljs-comment,
@@ -132,7 +144,7 @@ Darkula color scheme from the JetBrains family of IDEs
 .hljs-shebang,
 .apache .hljs-sqbracket,
 .tex .hljs-formula {
-  color: #7f7f7f;
+  color: #AAA;
 }
 
 .hljs-decorator {
