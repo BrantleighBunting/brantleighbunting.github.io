@@ -43,13 +43,13 @@ Darkula color scheme from the JetBrains family of IDEs
 .hljs-regexp,
 .hljs-literal,
 .hljs-hexcolor {
-  color: #BD93F9;
+  color: #8F7FFF;
 }
 
 .hljs-tag .hljs-value,
 .hljs-code,
 .css .hljs-class {
-  color: #a6e22e;
+  color: #5F5F77;
 }
 
 .hljs-link_url {
@@ -79,7 +79,7 @@ Darkula color scheme from the JetBrains family of IDEs
 .css .hljs-tag,
 .css .unit,
 .css .hljs-important {
-  color: #8BE9FD;
+  color: #8F7FFF;
 }
 
 .hljs-constant,
@@ -106,7 +106,8 @@ keywords are pink
 .hljs-class .hljs-keyword:first-child,
 .hljs-aspect .hljs-keyword:first-child,
 .hljs-built_in {
-  color: #FF79C6
+ /* color: #FF79C6 */
+ color: #8F7FFF;
 }
 
 .hljs-string,
@@ -133,7 +134,7 @@ keywords are pink
 .hljs-link_label,
 .hljs-link_url,
 .hljs-name {
-  color: #EEF78A;
+  color: #FF79C6;
 }
 
 .hljs-comment,

@@ -18,12 +18,42 @@ html{
     color: #DDD;
 }
 
+p > a:before {
+    color: #D0E1F9;
+    margin-left: -20px;
+    margin-right: 10px;
+    content: "-";
+}
+
+h1:before {
+    color: #6F5FFF;
+    margin-left: -20px;
+    margin-right: 10px;
+    content: "#";
+}
+
+h2:before {
+    color: #6F5FFF;
+    margin-left: -20px;
+    margin-right: 10px;
+    content: counter(first) ".";
+}
+
+h3:before {
+    color: #4F3FFF;
+    /*margin-left: -20px;*/
+    margin-right: 10px;
+    content: "-";
+}
+
 h1 {
     font-size: 1.6em;
     color: #D0E1F9;
 }
 
 h2 {
+    counter-increment: first;
+    counter-reset: second;
     font-size: 1.2em;
     color: #D0E1F9;
 }
@@ -48,7 +78,7 @@ h6 {
     color: #D0E1F9;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h4, h5, h6 {
     border-bottom: 1px solid #DFDCE3;
     padding-bottom: 5px;
 }
@@ -65,12 +95,12 @@ blockquote {
 }
 
 code {
-    background: #FAFAFA;
-    color: #2980b9;
-    padding: 2px; border-radius: 3px;
+    background: #1D2731;
+    color: #FFF;
+    padding: 3px; border-radius: 3px;
     padding-left: 6px; padding-right: 6px;
     font-family: monospace;
-    font-size: 0.8em;
+    font-size: 1.0em;
 }
 
 pre {
@@ -129,7 +159,8 @@ html, body {
 }
 
 .container a {
-    color: #4F3FFF;
+    /* 4F3FFF */
+    color: #8F7FFF;
 }
 
 .header {

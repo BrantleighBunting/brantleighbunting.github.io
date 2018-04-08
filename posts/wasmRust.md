@@ -8,17 +8,23 @@ We will be using [Webpack 4](https://webpack.js.org) as our bundler as well as [
 
 To get started, we should first install Rust via the helpful rustup.sh:
 
-```
-curl https://sh.rustup.rs -sSf | sh
-```
+`
+$ curl https://sh.rustup.rs -sSf | sh
+`
 
 We want to default the nightly toolchain, and also install the wasm64-unknown-unknown toolchain as well:
 
-```
-rustup install nightly
-rustup default nightly
-rustup target add wasm32-unknown-unknown
-```
+`
+$ rustup install nightly
+`
+
+`
+$ rustup default nightly
+`
+
+`
+$ rustup target add wasm32-unknown-unknown
+`
 
 Rust has native support within its compiler to compile Rust code straight into WebAssembly, all without emscripten!
 
@@ -67,13 +73,19 @@ This will allow us to have higher level interactions between JS and Rust, yay!
 
 ### Finally, Install Webpack Dependencies
 
-```
+`
 $ yarn global add webpack
-$ yarn global add webpack-cli
-$ yarn global add webpack-dev-server
-```
+`
 
-# Meat + Potatoes
+`
+$ yarn global add webpack-cli
+`
+
+`
+$ yarn global add webpack-dev-server
+`
+
+## Meat + Potatoes
 
 Now for the fun stuff, lets create a new Rust project:
 
